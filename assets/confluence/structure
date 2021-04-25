@@ -1,0 +1,37 @@
+themes
+    component
+    component-edit
+
+
+component
+    compId: number /key
+    compName: string
+    compType: string /key
+    compDesign: any = {
+
+    }
+    compData: any = {
+
+    }
+
+eg:
+card
+    compId: 100,
+    compName: "My component",
+    compType: "card100",
+    compDesign: any = {
+        imgAlignment:"left"
+    },
+    compData: any = {
+    eventTitle: "Ayaniyoonu",
+    eventDescription: "Blaah blaah",
+    eventDate: {
+      startTime: new Date(),
+      endTime: new Date()
+    },
+    eventLoc: {
+      place: "Residence",
+      link: ""
+    },
+    eventImage: "https://www.weddingwishlist.com/media/weddingwebsite/16781/16781_functions_1618130001.jpeg"
+  }
